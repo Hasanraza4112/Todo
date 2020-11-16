@@ -1,0 +1,121 @@
+body{
+
+    background-image: url(images/back.jpg);
+   background-repeat: no-repeat;
+   background-size: 500vh;   
+    justify-content: center;  
+      align-items: center;
+
+
+
+}
+#todo{
+    width: 80% !important;
+    display: block;
+color: black;
+font-weight: bold;
+    margin-top: 100px;
+    background: linear-gradient(rgb(211, 210, 200),rgb(165, 156, 156),rgb(221, 221, 226));
+    border: 2px solid white;
+}
+/* .input1{
+    border: 2px solid rgb(88, 20, 20);
+    height: 30px;
+    border-radius: 9px;
+    outline-style: none;
+    padding-left: 5px;
+    color: antiquewhite;
+    /* width: 100% !important; */
+/* } */ 
+h1{
+    margin-top: 50px;
+    color: rgb(253, 253, 253);
+    display: inline-block;
+    /* border: 3px dashed pink; */
+    /* background: linear-gradient(green,black,blue); */
+}
+   
+button{
+    background-color: black;
+     color:wheat;
+    width: 100px;
+    height: 30px;
+    border-radius: 9px;
+    border-top: 4px solid green;
+    border-bottom: 3px solid palevioletred;
+    border-left: 2px dashed royalblue;
+    border-right: 2px dashed wheat;  
+    outline-style: none; 
+
+}
+.Btn{
+  background-color: rgb(49, 75, 75);
+  margin-left: 20px;
+  outline-style: none;
+  width: 70px;
+  height: 30px;
+  font-size: 10px;
+  float: right;
+
+}
+.main{
+    background-image: url(images/back.jpg);
+    /* width: 600px; */
+    height: 600px;
+    margin: 0 auto;
+    text-align: center;
+    /* /* justify-content: center; */
+    align-items: center; 
+    
+}
+
+#list{
+    /* margin-left: 130px; */
+    color: wheat;
+    font-family: sans-serif;
+    font-size: 23px;
+    list-style: none;
+    width: 100%;
+    
+    /* text-align: center; */
+}
+ @media screen and (max-width:500px){
+    #todo,.main,.button,h1{
+        width: 95%;
+        margin-left: -10px;
+    }
+    .Btn{
+        width: 35px;
+        height: 20px;
+        font-size: 7px;
+        margin-top: 30px;
+        padding: 5px;
+        border: none;
+    
+    }
+    h1{
+        width: 330px;
+        /* border: 3px solid white; */
+        
+    }
+}
+
+
+
+.left{
+    margin-left: -80px;
+}
+
+
+.fa-plus,.fa-trash-o{
+     color: azure;
+     margin-left: 20px;
+     font-size:20px;
+}
+
+.fa-plus:hover{
+      color: chartreuse;
+}
+.fa-tras:hover{
+    color: chartreuse;
+} 
